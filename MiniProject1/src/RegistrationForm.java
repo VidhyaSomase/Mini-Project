@@ -1,50 +1,29 @@
+import java.util.Scanner;
 
 public class RegistrationForm {
 	private String FirstName;
 	private String LastName;
 	private String userName;
-	private String Password;
+	private int Password;
 	private String Address;
 	private long Contact;
-	public String getFirstName() {
-		return FirstName;
-	}
-	public void setFirstName(String firstName) {
-		FirstName = firstName;
-	}
-	public String getLastName() {
-		return LastName;
-	}
-	public void setLastName(String lastName) {
-		LastName = lastName;
-	}
-	public String getUserName() {
-		return userName;
-	}
-	public void setUserName(String userName) {
-		this.userName = userName;
-	}
-	public String getPassword() {
-		return Password;
-	}
-	public void setPassword(String password) {
-		Password = password;
-	}
-	public String getAddress() {
-		return Address;
-	}
-	public void setAddress(String address) {
-		Address = address;
-	}
-	public long getContact() {
-		return Contact;
-	}
-	public void setContact(long contact) {
-		Contact = contact;
-	}
 	
+
 	public void registration() {
-		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("registration for purchase product ");
+		System.out.println("enter name");
+		FirstName= sc.next();
+		System.out.println("enter last name");
+		LastName = sc.next();
+		System.out.println("userName");
+		userName=sc.next();
+		System.out.println("enter password");
+		Password=sc.nextInt();
+		System.out.println("enter Address");
+		Address = sc.next();
+		System.out.println("enter contact");
+		Contact=sc.nextInt();		
 	}
 
 }

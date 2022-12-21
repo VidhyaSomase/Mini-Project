@@ -3,8 +3,6 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Scanner;
 
-
-
 public class InsertData {
 	//design method for prepare statement
 	

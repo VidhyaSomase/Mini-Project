@@ -2,7 +2,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class ConnectionTest {
-	
 		Connection connection = null;
 			
 			public Connection getConnectionDetails() {
